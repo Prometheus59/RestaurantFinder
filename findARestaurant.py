@@ -7,8 +7,8 @@ import codecs
 sys.stdout = codecs.getwriter('utf8')(sys.stdout)
 sys.stderr = codecs.getwriter('utf8')(sys.stderr)
 
-foursquare_client_id = "PASTE_YOUR_ID_HERE"
-foursquare_client_secret = "YOUR_SECRET_HERE"
+foursquare_client_id = "OKCCBPY5OCGOPI2QJRZ4LD2DJPANXNHIQXT3Z04C0AXIK24L"
+foursquare_client_secret = "4SEXPZE2TJVMGY1VZ1V4BSYVCPKDPAPV5BTBM1UBXW2THVU2"
 
 
 def findARestaurant(mealType,location):
